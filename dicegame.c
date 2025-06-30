@@ -25,6 +25,12 @@ int main() {
     printf("Die 2: %d\n", die2);
     printf("Total value: %d\n", total);
 
+    if(total > 7){
+        printf("You won\n");
+    }else{
+        printf("You lose\n");
+    }
+
     return 0; // プログラムが正常終了したことを示す
 }
 
